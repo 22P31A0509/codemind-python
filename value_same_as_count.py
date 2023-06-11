@@ -1,11 +1,8 @@
 n=int(input())
 l=list(map(int,input().split()))
-
-e=[]
+n=[]
 for i in l:
-    if l.count(i)==i:
-        e.append(i)
-m=set(e)
-print(len(m));
-    
-    
+    if i==l.count(i):
+        n.append(i)
+s=set(n)
+print(len(s))
