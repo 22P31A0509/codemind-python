@@ -1,16 +1,13 @@
 n=int(input())
 l=list(map(int,input().split()))
 k=int(input())
-e=[]
+p=[]
 for i in l:
     if l.count(i)==k:
-        e.append(i)
-
-if not e:
+        p.append(i)
+if not p:
     print(-1)
 else:
-    m=set(e)
-    for i in m:
-        print(i,end=" ")
-    
-    
+    s=set(p)
+    for i in s:
+         print(i,end=" ")
