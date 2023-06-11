@@ -1,12 +1,12 @@
 n=int(input())
 l=list(map(int,input().split()))
-e=[]
+n=[]
 for i in l:
-    if l.count(i)==i:
-        e.append(i)
-
-if not e:
+    if i==l.count(i):
+        n.append(i)
+if not  n:
     print(-1)
 else:
-    print(min(e),max(e),end=" ")
-    
+    a=min(n)
+    b=max(n)
+    print(a,b)
