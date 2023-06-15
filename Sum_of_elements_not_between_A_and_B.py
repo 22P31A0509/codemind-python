@@ -6,4 +6,3 @@ for i in l:
     if i<a or i>b:
         c+=i
 print(c)
-    
