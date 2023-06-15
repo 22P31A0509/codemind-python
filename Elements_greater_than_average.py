@@ -1,9 +1,9 @@
-l=int(input())
-n=list(map(int,input().split()))
-s=sum(n)
-a=s//l
-c=0
-for i in n:
-    if(i>=a):
-        c+=1
-print(c)
+n=int(input())
+l=list(map(int,input().split()))
+c=[]
+s=sum(l)
+a=s//n
+for i in l:
+    if i>=a:
+        c.append(i)
+print(len(c))
